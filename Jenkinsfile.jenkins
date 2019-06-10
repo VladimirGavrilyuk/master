@@ -18,7 +18,7 @@ pipeline {
         }
         stage("Second step") {
             steps {
-                sh 'ssh root@157.230.112.44 \'ifconfig & reboot\''
+                sh 'ssh root@157.230.112.44 \'ifconfig\''
             }
         }
     }
